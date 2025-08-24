@@ -6,8 +6,8 @@
 }
 
 ::selection {
-  background-color: var(--c-red);
-  color: var(--c-white);
+  background-color: red;
+  color: white;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 }
 
 .wrapper {
-  padding: 1.5rem 1rem;
+  padding: 24px 16px;
   margin: 0 auto;
   max-width: 1400px;
 }
@@ -215,7 +215,7 @@ nav > .pages-container > button:hover {
   color: white;
 }
 
-/* -- MAIN -- */
+
 main {
   flex: 1;
   width: 100%;
@@ -252,7 +252,7 @@ main {
   gap: 32px;
 }
 
-/* -- FOOTER -- */
+
 footer {
   padding: 8px 0;
   width: 100%;
